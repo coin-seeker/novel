@@ -1,7 +1,7 @@
 import { EditorProvider } from "@tiptap/react";
 import type { EditorProviderProps, JSONContent } from "@tiptap/react";
 import { Provider } from "jotai";
-import { forwardRef, useRef } from "react";
+import React, { forwardRef } from "react";
 import type { FC, ReactNode } from "react";
 import tunnel from "tunnel-rat";
 import { novelStore } from "../utils/store";
@@ -17,7 +17,7 @@ interface EditorRootProps {
 }
 
 export const EditorRoot: FC<EditorRootProps> = ({ children }) => {
-  const tunnelInstance = useRef(tunnel()).current;
+  const tunnelInstance = React.useRef(tunnel()).current;
 
   return (
     <Provider store={novelStore}>

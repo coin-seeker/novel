@@ -7,9 +7,6 @@ export default defineConfig((options: Options) => ({
     plugins: "src/plugins/index.ts",
     utils: "src/utils/index.ts",
   },
-  banner: {
-    js: "'use client'",
-  },
   minify: true,
 
   format: ["cjs", "esm"],

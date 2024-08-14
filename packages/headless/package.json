@@ -1,7 +1,7 @@
 {
-  "name": "novel",
-  "version": "0.5.0",
-  "description": "Notion-style WYSIWYG editor with AI-powered autocompletions",
+  "name": "@coinseeker/novel",
+  "version": "0.1.1",
+  "description": "Notion-style WYSIWYG editor with AI-powered autocompletions rewritten by @coin-seeker",
   "license": "Apache-2.0",
   "type": "module",
   "main": "dist/index.cjs",
@@ -69,8 +69,6 @@
     "jotai": "^2.6.4",
     "react-markdown": "^8.0.7",
     "react-moveable": "^0.56.0",
-    "react-tweet": "^3.2.1",
-    "katex": "^0.16.10",
     "tippy.js": "^6.3.7",
     "tiptap-extension-global-drag-handle": "^0.1.7",
     "tiptap-markdown": "^0.8.9",
@@ -78,21 +76,20 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.2",
-    "@types/katex": "^0.16.7",
     "@types/react": "^18.2.55",
     "@types/react-dom": "18.2.19",
     "tsconfig": "workspace:*",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   },
-  "author": "Steven Tey <stevensteel97@gmail.com>",
-  "homepage": "https://novel.sh",
+  "author": "coin-seeker <coinseekerdev@gmail.com>",
+  "homepage": "https://theseeker.app",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steven-tey/novel.git"
+    "url": "git+https://github.com/coin-seeker/novel.git"
   },
   "bugs": {
-    "url": "https://github.com/steven-tey/novel/issues"
+    "url": "https://github.com/coin-seeker/novel/issues"
   },
   "keywords": [
     "ai",
